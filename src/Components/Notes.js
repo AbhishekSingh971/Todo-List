@@ -8,7 +8,7 @@ const Notes = (props) => {
   const { notes, getNotes, editNote} = context;
   useEffect(() => {
     getNotes()
-    }, []);
+    });
 
     const ref = useRef(null);
   const refClose = useRef(null);
